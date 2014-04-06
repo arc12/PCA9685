@@ -1,0 +1,1 @@
+A library to drive the PCA9685 16 channel PWM chip for use with LED outputs. Contains executable code to test the functions. Designed to be used with arduino/ATMega328. Depends on I2CUtils library, which is in a different repository. Created using Atmel Studio v6.

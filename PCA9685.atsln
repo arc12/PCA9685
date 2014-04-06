@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "PCA9685", "PCA9685.cppproj", "{24ECAE2B-00C0-4248-89DB-73928E8DE7A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5} = {E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}
+	EndProjectSection
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "I2CUtils", "..\I2CUtils\I2CUtils.cppproj", "{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Unit_Tests", "Unit_Tests\Unit_Tests.cppproj", "{09DFD8BD-A7C7-455E-B3E8-319BA1A58AB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24ECAE2B-00C0-4248-89DB-73928E8DE7A2} = {24ECAE2B-00C0-4248-89DB-73928E8DE7A2}
+		{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5} = {E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24ECAE2B-00C0-4248-89DB-73928E8DE7A2}.Debug|AVR.ActiveCfg = Debug|AVR
+		{24ECAE2B-00C0-4248-89DB-73928E8DE7A2}.Debug|AVR.Build.0 = Debug|AVR
+		{24ECAE2B-00C0-4248-89DB-73928E8DE7A2}.Release|AVR.ActiveCfg = Release|AVR
+		{24ECAE2B-00C0-4248-89DB-73928E8DE7A2}.Release|AVR.Build.0 = Release|AVR
+		{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}.Debug|AVR.Build.0 = Debug|AVR
+		{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}.Release|AVR.ActiveCfg = Release|AVR
+		{E2C740A9-CC8A-4AD0-93AE-6964FBCE14B5}.Release|AVR.Build.0 = Release|AVR
+		{09DFD8BD-A7C7-455E-B3E8-319BA1A58AB4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{09DFD8BD-A7C7-455E-B3E8-319BA1A58AB4}.Debug|AVR.Build.0 = Debug|AVR
+		{09DFD8BD-A7C7-455E-B3E8-319BA1A58AB4}.Release|AVR.ActiveCfg = Release|AVR
+		{09DFD8BD-A7C7-455E-B3E8-319BA1A58AB4}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
