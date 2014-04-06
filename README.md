@@ -1,1 +1,3 @@
-A library to drive the PCA9685 16 channel PWM chip for use with LED outputs. Contains executable code to test the functions. Designed to be used with arduino/ATMega328. Depends on I2CUtils library, which is in a different repository. Created using Atmel Studio v6.
+A library to drive the PCA9685 16 channel PWM chip for use with LED outputs. Contains executable code to test the functions (in Unit_Tests). Designed to be used with arduino/ATMega328. Depends on I2CUtils library, which is in a different repository. Created using Atmel Studio v6 but should be usable in the arduino IDE and Unit_Tests should be easy to convert into an arduino IDE sketch. I will eventually test these "shoulds", and create example sketches as per normal arduino practice.
+
+Consider this beta grade; it seems to work and proved my SMD soldering onto a breakout was OK. I will be using it for a scratch-build multi-channel christmas lights controller at some point.
